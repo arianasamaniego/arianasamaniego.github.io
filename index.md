@@ -1,37 +1,153 @@
-## Welcome to GitHub Pages
+/******************** Ignore everything between here and line 21.  Not required *******************/
+@charset "UTF-8";
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, font, img, ins, kbd, q, samp, small, strong, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, nav, article, aside, footer, hgroup, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	text-decoration: none;
+}
+:focus, :active { outline: 0 }
+ol, ul { list-style: none }
+header, nav, article, aside, footer, hgroup, section { display: block }
 
-You can use the [editor on GitHub](https://github.com/arianasamaniego/arianasamaniego.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+/***************************** Ignore everything ABOVE.  Not required ****************************/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+/******************************************************************************************/
+/************************************ GENERAL FORMATTING **********************************/
+/******************************************************************************************/
 
-- Bulleted
-- List
+html {background-color: #c9ffef ;}						/*HINT - background color of site set here*/
 
-1. Numbered
-2. List
+body {
+		width: 960px;
+		margin: 0 auto;
+		color: black;									/*HINT - here we set the text color of site*/
+		font: 14px/18px Corbel, Arial, Helvetica, sans-serif;
+		text-align: justify;
+	 }
 
-**Bold** and _Italic_ and `Code` text
+p { margin-bottom: 18px}
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+h1 {
+	font: 22px/22px Corbel, Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+	color: #CF5300;										/*HINT - here we set the heading color of site*/
+	font-weight: bold;
+}
 
-### Jekyll Themes
+h2 {
+	font: 22px/22px Corbel, Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+	color: black;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arianasamaniego/arianasamaniego.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+strong { font-weight: bold }
+em { font-style: italic }
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+/* sets text color and size for all hyperlinks on page */
+a { color: #940033;
+	font: 14px/16px Corbel, Arial, Helvetica, sans-serif;}
+a:hover { border-bottom: 1px solid #940033 }
+a:active { border-bottom: 2px solid #940033 }
+
+
+
+
+
+
+/*********************************************************************************/
+/************************************ HEADER *************************************/
+/*********************************************************************************/
+header { margin: 5px 5px 2px 2px}
+
+header h1 {
+	font: 35px "Arial";
+	color: #003399;							/*HINT - This is where you change webpage title color */
+    text-align: center;
+}
+
+header h2 {
+	font: 14px/20px "Arial";
+	color: black;							/*HINT - This is where you change quote color */
+	text-align: center;
+}
+
+
+
+
+
+
+/*********************************************************************************/
+/*********************************** BODY ****************************************/
+/*********************************************************************************/
+#content  {
+	background: white;  							/*background color in body portion*/
+	padding: 20px;
+	border-radius: 15px 15px 15px 15px;				/*rounded edges*/
+	-moz-border-radius: 15px 15px 15px 15px;		/*rounded edges - FIREFOX*/
+	-webkit-border-radius: 15px 15px 15px 15px;		/*rounded edges - SAFARI & CHROME*/
+
+}
+
+#content h3 {
+	color: black;							/*HINT - This is where you change quote color */
+	text-align: center;
+	font: 14px/16px Corbel, Arial, Helvetica, sans-serif;
+}
+
+#content img {
+	margin-left: 80px;										/* index pictures left x pixels*/
+	box-shadow: inset 1 -35px 35px -18px #005b79; 			/* shadowing for pictures*/
+	-moz-box-shadow: inset 1 1 10px rgba(50, 50, 50, 0.5);	/* shadowing for pictures - MOZILLA*/
+	-webkit-box-shadow: 3px 3px 7px #777;  					/* shadowing for pictures - CHROME*/
+	border-radius: 100%;
+}
+
+
+/* Sets the formatting for the scrolling text at the bottom*/
+#scroller {
+	font: 20px/20px "Arial";
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+/* Sets the formatting for the links portion*/
+.links li {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	text-align: left;
+	border-bottom: 1px solid #fafafa;
+	-o-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;}
+
+/* Slides links text to the right when mouse hovers over link*/
+.links li:hover { margin-left: 8px }
+.links li a:hover { border: none }
+
+
+
+
+/*********************************************************************/
+/***************************** COPYRIGHT *****************************/
+/*********************************************************************/
+.copyright {
+	text-align: center;
+	color: black;							/*HINT - This is where you change copyright text color */
+	margin: 10px 0 20px;
+	clear: both;
+}
