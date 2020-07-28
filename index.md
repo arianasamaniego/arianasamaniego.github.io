@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<!--[if IE]><![endif]-->
-
-<html lang=en>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -18,7 +14,7 @@
 <!--**COMMENT** Here is where you can change window title and page title.  -->
 <head>
 	<title>The Personal Website of Ariana Samaniego</title>
-	<link href=styles.css rel=stylesheet />
+	
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -39,8 +35,7 @@
 
 	<!-- if you like, you can add a favicon in code below.  This is just for fun so google favicon to learn what it is-->
 	<!-- The favicon is a small picture.  Currently your site will link to a favicon in Clint's folder on webspace which is why you'll see one.  Download a favicon and put in your webspace folder and then update link below to make this work for you-->
-	<link rel='shortcut icon' href='https://s3.amazonaws.com/htmlintro/justafolder/favicon.ico' type='image/x-icon'/ >
-    <link rel="icon" type="image/png" href="https://s3.amazonaws.com/htmlintro/justafolder/favicon.png" />
+	
 
 
 		<h1>Welcome to Ariana's Awesome HTML5 Webpage</h1>
@@ -50,8 +45,7 @@
 
 <body>
 
-<div class=clearfix>
-	<div id=content>
+
 
 			<h3>
 
@@ -92,19 +86,19 @@
 
 
 		<br>						<!--HINT - This is the code to add a blank line-->
-		<hr></hr>					<!--HINT - This is the code to create a horizontal line-->
+		<hr>					<!--HINT - This is the code to create a horizontal line-->
 
 
 		<h1>Favorite links to websites I frequent</h1>
-			<ul class=links>
+			
 				<li><a href="https://open.spotify.com/show/3DgfoleqaW61T2amZQKINx" target="_blank">I use spotify a lot to find new podcasts. This links to one of my favorite podcasts.</a></li>
 				<li><a href="http://youtube.com/" target="_blank">I constantly go to Youtube to relax and watch fun videos</a></li>
         <li><a href="https://slickdeals.net" target="_blank">I like to look at this website because they have a bunch of deals from things like groceries to tech</a></li>
 				<li><a href="https://www.cbs.com/shows/big_brother/" target="_blank">A great reality TV show. Highly recommend if you're looking for a good summer binge.</a></li>
-			</ul>
+			
 
 		<br>						<!--HINT - This is the code to add a blank line-->
-		<hr></hr>
+		<hr>
 
 
 		<h1>Contact me via links below</h1>
@@ -119,15 +113,8 @@
 
 
 
-	</div>
-</div>
 
-</body>
 
 <footer class=clearfix>
-		<p class=copyright>Copyright &copy; 2020 <strong>Ariana Samaniego</strong>. All Rights Reserved.</p>
-
-</footer>
-
-
-</html>
+		
+Copyright &copy; 2020 <strong>Ariana Samaniego</strong>. All Rights Reserved.
