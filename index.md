@@ -115,6 +115,7 @@
 
 
 
-<footer class=clearfix>
+
+
 		
 Copyright &copy; 2020 <strong>Ariana Samaniego</strong>. All Rights Reserved.
