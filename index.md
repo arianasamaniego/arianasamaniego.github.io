@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<!--[if IE]><![endif]-->
-
-<html lang=en>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -39,8 +35,7 @@
 
 	<!-- if you like, you can add a favicon in code below.  This is just for fun so google favicon to learn what it is-->
 	<!-- The favicon is a small picture.  Currently your site will link to a favicon in Clint's folder on webspace which is why you'll see one.  Download a favicon and put in your webspace folder and then update link below to make this work for you-->
-	<link rel='shortcut icon' href='https://s3.amazonaws.com/htmlintro/justafolder/favicon.ico' type='image/x-icon'/ >
-    <link rel="icon" type="image/png" href="https://s3.amazonaws.com/htmlintro/justafolder/favicon.png" />
+	
 
 
 		<h1>Welcome to Ariana's Awesome HTML5 Webpage</h1>
@@ -50,8 +45,6 @@
 
 <body>
 
-<div class=clearfix>
-	<div id=content>
 
 			<h3>
 
