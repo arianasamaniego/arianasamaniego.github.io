@@ -1,135 +1,153 @@
-<!DOCTYPE html>
-<!--[if IE]><![endif]-->
+/******************** Ignore everything between here and line 21.  Not required *******************/
+@charset "UTF-8";
+/* RESET */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, font, img, ins, kbd, q, samp, small, strong, sub, sup, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, header, nav, article, aside, footer, hgroup, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	text-decoration: none;
+}
+:focus, :active { outline: 0 }
+ol, ul { list-style: none }
+header, nav, article, aside, footer, hgroup, section { display: block }
 
-<html lang=en>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-56234333-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-<!--**COMMENT** Here is where you can change window title and page title.  -->
-<head>
-	<title>The Personal Website of Ariana Samaniego</title>
-	<link href=styles.css rel=stylesheet />
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-56234333-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-</head>
+/***************************** Ignore everything ABOVE.  Not required ****************************/
 
 
 
-<header>
-
-	<!-- if you like, you can add a favicon in code below.  This is just for fun so google favicon to learn what it is-->
-	<!-- The favicon is a small picture.  Currently your site will link to a favicon in Clint's folder on webspace which is why you'll see one.  Download a favicon and put in your webspace folder and then update link below to make this work for you-->
-	<link rel='shortcut icon' href='https://s3.amazonaws.com/htmlintro/justafolder/favicon.ico' type='image/x-icon'/ >
-    <link rel="icon" type="image/png" href="https://s3.amazonaws.com/htmlintro/justafolder/favicon.png" />
 
 
-		<h1>Welcome to Ariana's Awesome HTML5 Webpage</h1>
-		<h2>"All progress takes place outside your comfort zone."</h2>
+/******************************************************************************************/
+/************************************ GENERAL FORMATTING **********************************/
+/******************************************************************************************/
 
-</header>
+html {background-color: #c9ffef ;}						/*HINT - background color of site set here*/
 
-<body>
+body {
+		width: 960px;
+		margin: 0 auto;
+		color: black;									/*HINT - here we set the text color of site*/
+		font: 14px/18px Corbel, Arial, Helvetica, sans-serif;
+		text-align: justify;
+	 }
 
-<div class=clearfix>
-	<div id=content>
-
-			<h3>
-
-			<u>Home</u>
-			||
-			<a href="https://s3.amazonaws.com/htmlintro/justafolder/page2.html">More Info</a>
-			<!--This link above currently links to the page2 file in Clint's folder on the webspace server.  You'll need to update it to point to your page2 file on webspace -->
-
-
-			</h3>
+p { margin-bottom: 18px}
 
 
-			<br>						<!--HINT - This is the code to add a blank line-->
+h1 {
+	font: 22px/22px Corbel, Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+	color: #CF5300;										/*HINT - here we set the heading color of site*/
+	font-weight: bold;
+}
+
+h2 {
+	font: 22px/22px Corbel, Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+	color: black;
+}
+
+strong { font-weight: bold }
+em { font-style: italic }
 
 
-			<h1>Who am I?</h1>
-			<p>My name is Ariana Samaniego and I am from San Antonio, Texas.
-      I am a neuroscience major with a minor in business and psychology.
-      Pre-pandemic, I was actively involved in my orgs and volunteered frequently around the Austin area.
-      I also enjoyed watching UT sports, excercising, hanging out with friends and exploring Austin.
-      Currently, my time is spent working, taking summer classes and finding new books to read.</p>
-
-			<img src="hookem.jpeg" alt="Hook Em and I" width=200 height=200/>
-			<img src="Marley.jpeg" alt="My dog" width=200 height=200/>
-			<img src="Warren.jpeg" alt="Meeting Elizabeth Warren" width=200 height=200/>
-
-		<br><br>
-
-
-		<h1>My Work Experience</h1>
-
-				<li><u>IC2 Institute</u> - <i>Student Associate</i> - (June 2020 - Present)
-				<br>
-				<li><u>Freshman Research Initiative</u> - <i>Mentor</i> - (January 2020 - Present)
-				<br>
-				<li><u>University Leadership Network</u> - <i>Peer Mentor</i> - (August 2019 - Present)
-				<br>
-
-
-		<br>						<!--HINT - This is the code to add a blank line-->
-		<hr></hr>					<!--HINT - This is the code to create a horizontal line-->
-
-
-		<h1>Favorite links to websites I frequent</h1>
-			<ul class=links>
-				<li><a href="https://open.spotify.com/show/3DgfoleqaW61T2amZQKINx" target="_blank">I use spotify a lot to find new podcasts. This links to one of my favorite podcasts.</a></li>
-				<li><a href="http://youtube.com/" target="_blank">I constantly go to Youtube to relax and watch fun videos</a></li>
-        <li><a href="https://slickdeals.net" target="_blank">I like to look at this website because they have a bunch of deals from things like groceries to tech</a></li>
-				<li><a href="https://www.cbs.com/shows/big_brother/" target="_blank">A great reality TV show. Highly recommend if you're looking for a good summer binge.</a></li>
-			</ul>
-
-		<br>						<!--HINT - This is the code to add a blank line-->
-		<hr></hr>
-
-
-		<h1>Contact me via links below</h1>
-		<!--link to email-->
-		<a href="mailto:ariana.samaniego@utexas.edu">ariana.samaniego@utexas.edu</a>
-		<br>
-		<a href="https://twitter.com/arianasamanieg0" target="_blank">@arianasamanieg0</a>
-		<br>
-    <a href="https://www.instagram.com/ariana.samaniego/" target="_blank">@ariana.samaniego</a>
-		<br>
-		<a href="https://www.linkedin.com/in/ariana-samaniego-907a2b1a9/" target="_blank">My Linked In Profile</a>
+/* sets text color and size for all hyperlinks on page */
+a { color: #940033;
+	font: 14px/16px Corbel, Arial, Helvetica, sans-serif;}
+a:hover { border-bottom: 1px solid #940033 }
+a:active { border-bottom: 2px solid #940033 }
 
 
 
-	</div>
-</div>
-
-</body>
-
-<footer class=clearfix>
-		<p class=copyright>Copyright &copy; 2020 <strong>Ariana Samaniego</strong>. All Rights Reserved.</p>
-
-</footer>
 
 
-</html>
+
+/*********************************************************************************/
+/************************************ HEADER *************************************/
+/*********************************************************************************/
+header { margin: 5px 5px 2px 2px}
+
+header h1 {
+	font: 35px "Arial";
+	color: #003399;							/*HINT - This is where you change webpage title color */
+    text-align: center;
+}
+
+header h2 {
+	font: 14px/20px "Arial";
+	color: black;							/*HINT - This is where you change quote color */
+	text-align: center;
+}
 
 
+
+
+
+
+/*********************************************************************************/
+/*********************************** BODY ****************************************/
+/*********************************************************************************/
+#content  {
+	background: white;  							/*background color in body portion*/
+	padding: 20px;
+	border-radius: 15px 15px 15px 15px;				/*rounded edges*/
+	-moz-border-radius: 15px 15px 15px 15px;		/*rounded edges - FIREFOX*/
+	-webkit-border-radius: 15px 15px 15px 15px;		/*rounded edges - SAFARI & CHROME*/
+
+}
+
+#content h3 {
+	color: black;							/*HINT - This is where you change quote color */
+	text-align: center;
+	font: 14px/16px Corbel, Arial, Helvetica, sans-serif;
+}
+
+#content img {
+	margin-left: 80px;										/* index pictures left x pixels*/
+	box-shadow: inset 1 -35px 35px -18px #005b79; 			/* shadowing for pictures*/
+	-moz-box-shadow: inset 1 1 10px rgba(50, 50, 50, 0.5);	/* shadowing for pictures - MOZILLA*/
+	-webkit-box-shadow: 3px 3px 7px #777;  					/* shadowing for pictures - CHROME*/
+	border-radius: 100%;
+}
+
+
+/* Sets the formatting for the scrolling text at the bottom*/
+#scroller {
+	font: 20px/20px "Arial";
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: black;
+}
+
+/* Sets the formatting for the links portion*/
+.links li {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 5px;
+	text-align: left;
+	border-bottom: 1px solid #fafafa;
+	-o-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;}
+
+/* Slides links text to the right when mouse hovers over link*/
+.links li:hover { margin-left: 8px }
+.links li a:hover { border: none }
+
+
+
+
+/*********************************************************************/
+/***************************** COPYRIGHT *****************************/
+/*********************************************************************/
+.copyright {
+	text-align: center;
+	color: black;							/*HINT - This is where you change copyright text color */
+	margin: 10px 0 20px;
+	clear: both;
+}
